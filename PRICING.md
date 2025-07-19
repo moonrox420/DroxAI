@@ -1,0 +1,1 @@
+# DroxAI Pricing\n- **Glacier**: $199/month, $7,500 onboarding\n- **Hollow**: $399/month, $15,000 onboarding\n- **Forge**: $799/month, $35,000 onboarding\n- **Brahma**: $3,999/month, $75,000 onboarding\nAll tiers include unlimited scans.
