@@ -1,0 +1,73 @@
+{
+  "bots": [
+    {
+      "id": "droxai_protection_bot_1",
+      "name": "SiteGuardian",
+      "type": "security",
+      "enabled": true,
+      "description": "Monitors DroxAI.com uptime and threats with ML-based anomaly detection",
+      "triggers": [
+        {
+          "event": "schedule",
+          "conditions": ["interval:5m"],
+          "actions": ["check_uptime:https://droxai.com", "log_result"]
+        },
+        {
+          "event": "http_request",
+          "conditions": ["status:429", "rate:>100/min"],
+          "actions": ["ml_anomaly_check", "block_ip", "notify_admin:Potential DDoS detected"]
+        },
+        {
+          "event": "log_scan",
+          "conditions": ["contains:SQLmap", "interval:1m"],
+          "actions": ["notify_admin:Potential SQL injection detected"]
+        }
+      ],
+      "settings": {
+        "monitor_endpoint": "https://droxai.com/health",
+        "log_file": "/logs/siteguardian.log",
+        "admin_webhook": "https://droxai.com/alerts",
+        "ip_blocklist": "redis://redis-cluster:6379",
+        "anomaly_model": "isolation_forest",
+        "anomaly_threshold": 0.95,
+        "backup_endpoint": "https://backup.droxai.com/health",
+        "scan_limits": {
+          "glacier": "unlimited",
+          "hollow": "unlimited",
+          "forge": "unlimited",
+          "brahma": "unlimited"
+        }
+      },
+      "deployment": {
+        "platform": "docker",
+        "image": "droxai/guardian:latest",
+        "port": 9000,
+        "restart_policy": "always",
+        "scaling": {
+          "min_instances": 2,
+          "max_instances": 5,
+          "cpu_threshold": 70
+        }
+      }
+    }
+  ],
+  "global_settings": {
+    "log_level": "info",
+    "webhook": "https://droxai.com/webhooks",
+    "redis_host": "redis://redis-cluster:6379",
+    "monitoring": {
+      "prometheus_endpoint": "http://prometheus:9090",
+      "grafana_dashboard": "http://grafana:3000/droxai"
+    },
+    "security": {
+      "rate_limit_per_minute": 1000,
+      "jwt_secret": "env:JWT_SECRET",
+      "encryption_key": "env:ENCRYPTION_KEY"
+    },
+    "backup": {
+      "enabled": true,
+      "frequency": "daily",
+      "storage": "s3://droxai-backups"
+    }
+  }
+}
