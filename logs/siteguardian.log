@@ -1,0 +1,236 @@
+ERROR:root:[UPTIME ERROR] https://droxai.com/health: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002027FD74C50>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+ERROR:root:[UPTIME ERROR] https://droxai.com/health: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000210335C8910>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+ERROR:root:[UPTIME ERROR] https://droxai.com/health: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /health (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CD25314C50>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO:root:[LOG] SiteGuardian - Status: None
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.14284656930670847, Anomalous: False
+ERROR:root:[ALERT FAIL] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CDFE52BFD0>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.14284656930670847, Anomalous: False
+ERROR:root:[ALERT FAIL] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CDFE547690>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.14284656930670847, Anomalous: False
+ERROR:root:[ALERT FAIL] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CDFE55B090>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.14284656930670847, Anomalous: False
+ERROR:root:[ALERT FAIL] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CDFE545410>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.14284656930670847, Anomalous: False
+ERROR:root:[ALERT FAIL] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CDFE529350>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.14284656930670847, Anomalous: False
+ERROR:root:[ALERT FAIL] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001CDFE565050>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743BB910>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.1270926651266866, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743D4D50>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743D67D0>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.1270926651266866, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743E03D0>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743E1E10>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.1270926651266866, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743E3E50>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743D6CD0>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.1270926651266866, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743D6310>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020473DC0690>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.1270926651266866, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000204743E2BD0>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F27F9ED810>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.13330272754243044, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F21704BFD0>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F217065BD0>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.13330272754243044, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F217067710>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F217079190>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.13330272754243044, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F21707B190>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] https://droxai.com: HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F217067890>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+INFO:root:[LOG] SiteGuardian - Status: None
+INFO:root:[ANOMALY DETECTION] Rate: 150, Score: -0.13330272754243044, Anomalous: False
+WARNING:root:[SECURITY] Blocking IP: 192.168.1.1
+WARNING:root:[NOTIFY] Potential SQL injection detected
+ERROR:root:[NOTIFY ERROR] HTTPSConnectionPool(host='droxai.com', port=443): Max retries exceeded with url: /webhooks (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F217065150>: Failed to resolve 'droxai.com' ([Errno 11001] getaddrinfo failed)"))
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 44, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 4, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 64, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 24, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 84, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 44, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 4, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 45, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 5, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 45, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 5, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 45, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 5, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 45, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 5, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 45, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 5, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 45, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 5, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 45, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 5, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 45, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 5, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 65, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 25, Score: -0.09041962930459702, Anomalous: False
+ERROR:root:[UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+WARNING:root:[TRIGGER] Bot 'SiteGuardian' detected status None at http://localhost:8000/health
+INFO:root:[ANOMALY DETECTION] Rate: 85, Score: -0.09041962930459702, Anomalous: False

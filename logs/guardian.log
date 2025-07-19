@@ -1,0 +1,312 @@
+nohup: ignoring input
+2025-07-18 23:11:31,133 | INFO | SiteGuardian Bot Engine launched.
+2025-07-18 23:11:33,184 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:11:58,643 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:12:24,546 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:12:35,231 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:12:58,658 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:13:24,550 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:13:37,280 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:13:58,671 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:14:24,553 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:14:39,317 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:14:58,674 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:15:24,556 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:15:41,388 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:15:58,677 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:16:24,570 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:16:43,449 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:16:58,682 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:17:24,573 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:17:45,505 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:17:58,684 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:18:24,586 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:18:47,548 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:18:58,700 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:19:24,589 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:19:49,619 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:19:58,704 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:20:24,602 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:20:51,657 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:20:58,704 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:21:24,627 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:21:53,701 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:21:58,731 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:22:24,632 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:22:55,733 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:22:58,734 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:23:24,652 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:23:57,765 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:23:58,761 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:24:24,656 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:24:58,780 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:24:59,843 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:25:24,658 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:25:58,809 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:26:01,912 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:26:24,687 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:26:58,833 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:27:03,960 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:27:24,690 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:27:58,837 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:28:06,005 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:28:24,713 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:28:58,840 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:29:08,036 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:29:24,733 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:29:58,843 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:30:10,085 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:30:24,736 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:30:58,867 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:31:12,114 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:31:24,739 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:31:58,880 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:32:14,146 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:32:24,742 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:32:58,883 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:33:16,190 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:33:24,745 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:33:58,886 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:34:18,251 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:34:24,748 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:34:58,912 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:35:20,324 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:35:24,763 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:35:58,926 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:36:22,384 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:36:24,767 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:36:58,942 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:37:24,438 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:37:24,769 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:37:58,958 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:38:24,772 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:38:26,466 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:38:58,961 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:39:24,794 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:39:28,511 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:39:58,975 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:40:24,798 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:40:30,578 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:40:58,989 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:41:24,801 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:41:32,624 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:41:58,991 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:42:24,804 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:42:34,657 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:42:59,007 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:43:24,826 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:43:36,718 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:43:59,009 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:44:24,829 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:44:38,785 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:44:59,036 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:45:24,850 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:45:40,835 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:45:59,054 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:46:24,865 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:46:42,867 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-18 23:46:59,073 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:53:18,046 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:53:18,049 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-18 23:53:20,125 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:07:39,267 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:07:39,269 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:07:41,286 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:08:39,285 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:08:39,286 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:08:43,322 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:09:39,295 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:09:39,299 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:09:45,342 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:10:39,306 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:10:39,324 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:10:47,403 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:11:39,334 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:11:39,343 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:11:49,428 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:12:39,365 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:12:39,365 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:12:51,468 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:13:39,388 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:13:39,388 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:13:53,486 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:14:39,406 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:14:39,406 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:14:55,521 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:15:39,422 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:15:39,425 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:15:57,562 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:16:39,434 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:16:39,446 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:16:59,644 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:17:39,466 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:17:39,466 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:18:01,719 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:18:39,495 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:18:39,495 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:19:03,756 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:19:39,507 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:19:39,532 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:20:05,796 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:20:39,529 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:20:39,552 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:21:07,833 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:21:39,547 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:21:39,564 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:22:09,873 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:22:39,557 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:22:39,587 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:23:11,948 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:23:39,578 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:23:39,620 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:24:14,002 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:24:39,598 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:24:39,639 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:25:16,074 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:25:39,617 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:25:39,642 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:26:18,131 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:26:39,622 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:26:39,667 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:27:20,210 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:27:39,630 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:27:39,798 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:28:22,273 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:28:39,652 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:28:39,803 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:29:24,354 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:29:39,654 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:29:39,825 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:35:23,856 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:35:23,856 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:41:30,116 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:41:52,055 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:41:52,079 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:42:32,175 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:42:52,059 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:42:52,107 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:43:34,241 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:43:52,067 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:43:52,112 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:44:36,286 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:44:52,084 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:44:52,132 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:45:38,350 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:45:52,107 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:45:52,134 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:46:40,411 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:46:52,113 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:46:52,139 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:47:42,455 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:47:52,114 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:47:52,142 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:48:44,517 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:48:52,138 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:48:52,170 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:49:46,568 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:49:52,142 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:49:52,196 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:50:48,648 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:50:52,157 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:50:52,197 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:51:50,704 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:51:52,219 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:51:52,245 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:52:52,221 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:52:52,276 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:52:52,788 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 00:56:19,318 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:56:19,329 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 00:56:21,365 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 03:52:53,664 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:52:53,704 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:52:56,584 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 03:53:53,696 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:53:53,716 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:53:58,657 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 03:54:53,734 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:54:53,752 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:55:00,716 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 03:55:53,757 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:55:53,764 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:56:02,778 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 03:56:53,788 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:56:53,788 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:57:04,829 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 03:57:53,796 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:57:53,819 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:58:06,887 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 03:58:53,825 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:58:53,831 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:59:08,923 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 03:59:53,836 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 03:59:53,850 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:00:10,979 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:00:53,855 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:00:53,880 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:01:13,045 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:01:53,871 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:01:53,883 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:02:15,100 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:02:53,875 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:02:53,888 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:03:17,164 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:03:53,880 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:03:53,913 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:04:19,215 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:04:53,884 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:04:53,941 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:05:21,270 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:05:53,910 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:05:53,943 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:06:23,313 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:06:53,928 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:06:53,962 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:07:25,364 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:07:53,944 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:07:53,966 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:08:27,383 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:08:53,947 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:08:53,981 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:09:29,439 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:09:53,971 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:09:53,982 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:10:31,505 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:10:53,993 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:10:53,995 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:11:33,543 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:11:54,004 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:11:54,004 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:12:35,599 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:12:54,016 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:12:54,033 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:13:37,680 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:13:54,043 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:13:54,059 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:14:39,739 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:14:54,059 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:14:54,075 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:15:41,804 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:15:54,079 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:15:54,079 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:16:43,870 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:16:54,086 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:16:54,094 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:17:45,916 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:17:54,099 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:17:54,112 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:18:47,945 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:18:54,114 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:18:54,116 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:19:49,992 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:19:54,117 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:19:54,118 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:20:52,053 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:20:54,139 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:20:54,140 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:21:54,115 | INFO | [UPTIME] http://localhost:8085/health \u2192 200
+2025-07-19 04:21:54,162 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:21:54,162 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:22:54,165 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:22:54,167 | ERROR | [UPTIME ERROR] http://localhost:8000/health: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-07-19 04:22:56,146 | INFO | [UPTIME] http://localhost:8085/health \u2192 200

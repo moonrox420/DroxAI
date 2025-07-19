@@ -24,7 +24,7 @@
         }
       ],
       "settings": {
-        "monitor_endpoint": "https://droxai.com/health",
+        "monitor_endpoint": "http://localhost:8085/health",
         "log_file": "/logs/siteguardian.log",
         "admin_webhook": "https://droxai.com/alerts",
         "ip_blocklist": "redis://redis-cluster:6379",

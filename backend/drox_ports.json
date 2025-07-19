@@ -1,0 +1,50 @@
+import json
+from datetime import datetime
+
+# Define Drox Port Registry
+drox_ports = {
+    "metadata": {
+        "generated": datetime.now().isoformat(),
+        "format_version": "1.0",
+        "notes": "Auto-generated Drox Port Registry. Do not edit manually."
+    },
+    "ports": {
+        "llama_inference_1": {
+            "port": 8012,
+            "status": "active",
+            "description": "Primary model endpoint (local)"
+        },
+        "llama_inference_2": {
+            "port": 8013,
+            "status": "active",
+            "description": "Alt model / second context instance"
+        },
+        "siteguardian_api": {
+            "port": 8085,
+            "status": "active",
+            "description": "Monitored health endpoint"
+        },
+        "admin_panel_reserved": {
+            "port": 8090,
+            "status": "reserved",
+            "description": "Future secured dashboard"
+        },
+        "backup_monitor": {
+            "port": 8095,
+            "status": "reserved",
+            "description": "Tracks backup success"
+        },
+        "default_junkyard": {
+            "port": 8000,
+            "status": "blacklisted",
+            "description": "Too many conflicts / auto-kill target"
+        }
+    }
+}
+
+# Save to JSON file
+output_path = "/mnt/data/drox_ports.json"
+with open(output_path, "w") as f:
+    json.dump(drox_ports, f, indent=4)
+
+output_path
