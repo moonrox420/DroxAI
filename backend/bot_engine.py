@@ -16,7 +16,7 @@ logging.basicConfig(
 )
 
 # Load manifest
-with open("backend/droxai_bots_manifest.json") as f:
+with open("droxai_bots_manifest.json") as f:
     config = json.load(f)
 
 bots = config["bots"]
@@ -40,11 +40,15 @@ def process_triggers(bot):
     threshold = bot["settings"].get("anomaly_threshold", 0.95)
     status = check_uptime(url)
 
-    if "uptime_check" in bot["triggers"] and status and status != 200:
+    # Check if bot has uptime monitoring triggers
+    uptime_triggers = [t for t in bot["triggers"] if "check_uptime" in str(t.get("actions", []))]
+    if uptime_triggers and status and status != 200:
         logging.warning(f"[TRIGGER] Uptime anomaly at {url} → {status}")
         block_ip(bot.get("ip", "unknown"))
 
-    if "anomaly_check" in bot["triggers"]:
+    # Check if bot has anomaly detection triggers
+    anomaly_triggers = [t for t in bot["triggers"] if "ml_anomaly_check" in str(t.get("actions", []))]
+    if anomaly_triggers:
         simulated_rate = status or 0
         if ml_anomaly_check(simulated_rate, threshold):
             logging.warning(f"[TRIGGER] ML anomaly at {url} → {simulated_rate}")

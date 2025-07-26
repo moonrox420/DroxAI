@@ -7,23 +7,23 @@ const Pricing = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div className="bg-white p-4 rounded-lg shadow-md">
           <h3 className="text-lg font-semibold">Glacier</h3>
-          <p>99/month</p>
-          <p>,500 onboarding fee</p>
+          <p>$99/month</p>
+          <p>$1,500 onboarding fee</p>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-md">
           <h3 className="text-lg font-semibold">Hollow</h3>
-          <p>99/month</p>
-          <p>5,000 onboarding fee</p>
+          <p>$299/month</p>
+          <p>$5,000 onboarding fee</p>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-md">
           <h3 className="text-lg font-semibold">Forge</h3>
-          <p>99/month</p>
-          <p>5,000 onboarding fee</p>
+          <p>$599/month</p>
+          <p>$15,000 onboarding fee</p>
         </div>
         <div className="bg-white p-4 rounded-lg shadow-md">
           <h3 className="text-lg font-semibold">Brahma</h3>
-          <p>,999/month</p>
-          <p>5,000 onboarding fee</p>
+          <p>$2,999/month</p>
+          <p>$25,000 onboarding fee</p>
         </div>
       </div>
       <p className="mt-4">All tiers include unlimited scans with SiteGuardian.</p>
