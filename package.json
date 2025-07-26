@@ -1,0 +1,19 @@
+{
+  "name": "droxai-platform",
+  "version": "1.0.0",
+  "description": "DroxAI Cybersecurity Platform - Complete startup scripts",
+  "scripts": {
+    "start": "./quick_start.sh",
+    "dev": "./run_all.sh",
+    "backend": "cd backend && python main.py",
+    "frontend": "cd frontend && npm start",
+    "bot": "cd backend && python bot_engine.py",
+    "install-deps": "cd backend && pip install -r requirements.txt && cd ../frontend && npm install",
+    "health": "curl -s http://localhost:8000/health",
+    "status": "curl -s http://localhost:8000/api/status",
+    "docs": "open http://localhost:8000/docs"
+  },
+  "keywords": ["cybersecurity", "fastapi", "react", "monitoring", "droxai"],
+  "author": "DroxAI",
+  "license": "MIT"
+}
