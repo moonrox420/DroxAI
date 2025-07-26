@@ -16,7 +16,8 @@ logging.basicConfig(
 )
 
 # Load manifest
-with open("backend/droxai_bots_manifest.json") as f:
+manifest_path = os.path.join(os.path.dirname(__file__), "droxai_bots_manifest.json")
+with open(manifest_path) as f:
     config = json.load(f)
 
 bots = config["bots"]

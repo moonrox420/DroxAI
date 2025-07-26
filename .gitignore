@@ -1,3 +1,38 @@
+# Build artifacts and dependencies
 node_modules/
-.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+dist/
 build/
+frontend/build/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python virtual environments
+venv/
+env/
+.venv/
+
+# Redis and database files
+*.rdb
+*.db
