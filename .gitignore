@@ -36,3 +36,6 @@ env/
 # Redis and database files
 *.rdb
 *.db
+
+# User data files
+backend/users.json
