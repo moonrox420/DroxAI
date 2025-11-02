@@ -2,39 +2,63 @@
 
 This document describes the user authentication system implemented for the DroxAI platform.
 
+## ⚙️ Optional Authentication
+
+**By default, authentication is DISABLED** for single-user deployments. The system works immediately without requiring login.
+
+To enable authentication (for multi-user environments):
+```bash
+export REQUIRE_AUTH=true
+export REACT_APP_REQUIRE_AUTH=true
+```
+
 ## Features
 
 ### Backend (FastAPI)
+- **Optional Authentication**: Can be enabled/disabled via `REQUIRE_AUTH` environment variable
 - **JWT-based Authentication**: Secure token-based authentication with 30-minute expiration
 - **Password Security**: Bcrypt hashing via passlib for secure password storage
 - **RESTful API Endpoints**:
   - `POST /api/auth/register` - Register new user
   - `POST /api/auth/login` - Login and receive JWT token
-  - `GET /api/auth/me` - Get current authenticated user info
+  - `GET /api/auth/me` - Get current authenticated user info (returns anonymous user if auth disabled)
 - **Email Validation**: Proper email format validation using email-validator
 - **Simple Storage**: JSON-based user storage for minimal infrastructure changes
 
 ### Frontend (React)
+- **Optional UI**: Login/Register pages hidden when authentication is disabled
 - **Login Page**: Clean, user-friendly login interface
 - **Registration Page**: Secure registration with password confirmation
 - **Authentication Context**: Global state management using React Context API
-- **Protected Routes**: Automatic redirect to login for unauthenticated users
-- **Dynamic Navigation**: Shows Login/Register for guests, Logout/Dashboard for authenticated users
+- **Protected Routes**: Automatic redirect to login for unauthenticated users (when auth enabled)
+- **Dynamic Navigation**: Shows Login/Register or Bot Builder/Dashboard based on auth setting
 - **Token Management**: Automatic storage and retrieval from localStorage
 - **User Greeting**: Displays username in header when logged in
 
 ## Security Features
 
-1. **Password Hashing**: All passwords are hashed using bcrypt before storage
-2. **JWT Tokens**: Short-lived tokens (30 minutes) for session management
-3. **Protected Routes**: Dashboard and Bot Builder require authentication
-4. **Environment Variables**: JWT secret key can be configured via environment
-5. **Vulnerability-Free Dependencies**: All dependencies scanned and updated
-6. **Data Protection**: User data files excluded from version control
+1. **Optional by Default**: Authentication disabled for single-user mode
+2. **Password Hashing**: All passwords are hashed using bcrypt before storage
+3. **JWT Tokens**: Short-lived tokens (30 minutes) for session management (configurable)
+4. **Protected Routes**: Dashboard and Bot Builder require authentication (when enabled)
+5. **Environment Variables**: JWT secret key can be configured via environment
+6. **Vulnerability-Free Dependencies**: All dependencies scanned and updated
+7. **Data Protection**: User data files excluded from version control
 
 ## Setup Instructions
 
-### Backend Setup
+### Quick Start (No Authentication)
+
+Just run the application - authentication is disabled by default:
+
+```bash
+cd backend && python main.py
+cd frontend && npm start
+```
+
+Access all features immediately at `http://localhost:3000` without login.
+
+### Backend Setup with Authentication
 
 1. Install dependencies:
 ```bash
@@ -42,8 +66,9 @@ cd backend
 pip install -r requirements.txt
 ```
 
-2. Set environment variables (optional):
+2. Enable authentication (optional):
 ```bash
+export REQUIRE_AUTH=true
 export JWT_SECRET_KEY="your-secure-random-key-here"
 export ENVIRONMENT="development"  # or "production"
 ```

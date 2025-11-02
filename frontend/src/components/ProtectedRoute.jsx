@@ -1,9 +1,15 @@
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
+import { REQUIRE_AUTH } from '../config';
 
 const ProtectedRoute = ({ children }) => {
   const { isAuthenticated, loading } = useAuth();
+
+  // If authentication is disabled, allow access
+  if (!REQUIRE_AUTH) {
+    return children;
+  }
 
   if (loading) {
     return (

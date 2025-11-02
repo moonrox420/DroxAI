@@ -15,6 +15,10 @@ from fastapi import HTTPException, status, Depends
 from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel, EmailStr
 
+# Authentication Configuration
+# Set REQUIRE_AUTH=false to disable authentication (useful for single-user deployments)
+REQUIRE_AUTH = os.getenv("REQUIRE_AUTH", "false").lower() == "true"
+
 # JWT Configuration
 # In production, always set JWT_SECRET_KEY environment variable to a secure random value
 SECRET_KEY = os.getenv("JWT_SECRET_KEY")
@@ -31,8 +35,8 @@ ACCESS_TOKEN_EXPIRE_MINUTES = 30
 # Password hashing
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-# Security scheme
-security = HTTPBearer()
+# Security scheme - auto_error=False allows optional authentication
+security = HTTPBearer(auto_error=False)
 
 # Pydantic models
 class UserCreate(BaseModel):
@@ -140,8 +144,25 @@ def authenticate_user(email: str, password: str) -> Optional[Dict]:
         return None
     return user
 
-async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)) -> Dict:
-    """Get current authenticated user from token"""
+async def get_current_user(credentials: Optional[HTTPAuthorizationCredentials] = Depends(security)) -> Dict:
+    """Get current authenticated user from token (or anonymous user if auth disabled)"""
+    
+    # If authentication is disabled, return anonymous user
+    if not REQUIRE_AUTH:
+        return {
+            "email": "anonymous@localhost",
+            "username": "Anonymous User",
+            "created_at": datetime.now(timezone.utc).isoformat()
+        }
+    
+    # Authentication is required - validate token
+    if credentials is None:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Authentication required",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    
     token = credentials.credentials
     payload = decode_token(token)
     

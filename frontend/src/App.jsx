@@ -8,6 +8,7 @@ import Login from './components/Login';
 import Register from './components/Register';
 import ProtectedRoute from './components/ProtectedRoute';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
+import { REQUIRE_AUTH } from './config';
 
 function Navigation() {
   const { isAuthenticated, user, logout } = useAuth();
@@ -22,7 +23,7 @@ function Navigation() {
     <header className="bg-blue-600 text-white p-4">
       <div className="flex justify-between items-center">
         <h1 className="text-3xl font-bold">DroxAI</h1>
-        {isAuthenticated && user && (
+        {REQUIRE_AUTH && isAuthenticated && user && (
           <div className="text-sm">
             Welcome, <span className="font-semibold">{user.username}</span>
           </div>
@@ -31,16 +32,23 @@ function Navigation() {
       <nav className="mt-2">
         <Link to="/" className="mr-4 text-white hover:underline">Home</Link>
         <Link to="/pricing" className="mr-4 text-white hover:underline">Pricing</Link>
-        {isAuthenticated ? (
+        {REQUIRE_AUTH ? (
+          isAuthenticated ? (
+            <>
+              <Link to="/builder" className="mr-4 text-white hover:underline">Bot Builder</Link>
+              <Link to="/dashboard" className="mr-4 text-white hover:underline">Dashboard</Link>
+              <button onClick={handleLogout} className="mr-4 text-white hover:underline">Logout</button>
+            </>
+          ) : (
+            <>
+              <Link to="/login" className="mr-4 text-white hover:underline">Login</Link>
+              <Link to="/register" className="mr-4 text-white hover:underline">Register</Link>
+            </>
+          )
+        ) : (
           <>
             <Link to="/builder" className="mr-4 text-white hover:underline">Bot Builder</Link>
             <Link to="/dashboard" className="mr-4 text-white hover:underline">Dashboard</Link>
-            <button onClick={handleLogout} className="mr-4 text-white hover:underline">Logout</button>
-          </>
-        ) : (
-          <>
-            <Link to="/login" className="mr-4 text-white hover:underline">Login</Link>
-            <Link to="/register" className="mr-4 text-white hover:underline">Register</Link>
           </>
         )}
       </nav>
