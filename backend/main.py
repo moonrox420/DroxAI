@@ -82,7 +82,7 @@ async def register(user_data: UserCreate):
 
 @app.post("/api/auth/login", response_model=Token)
 async def login(user_credentials: UserLogin):
-    """Login user and return access token"""
+    """Login user and return access token (admin users get extended tokens)"""
     user = authenticate_user(user_credentials.email, user_credentials.password)
     if not user:
         raise HTTPException(
@@ -91,9 +91,10 @@ async def login(user_credentials: UserLogin):
             headers={"WWW-Authenticate": "Bearer"},
         )
     
-    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    # Admin users get extended token expiration (1 year)
+    is_admin = user.get("is_admin", False)
     access_token = create_access_token(
-        data={"sub": user["email"]}, expires_delta=access_token_expires
+        data={"sub": user["email"]}, is_admin=is_admin
     )
     return Token(access_token=access_token, token_type="bearer")
 

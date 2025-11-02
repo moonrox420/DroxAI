@@ -12,15 +12,31 @@ export REQUIRE_AUTH=true
 export REACT_APP_REQUIRE_AUTH=true
 ```
 
+## 👑 Admin Users
+
+**Owners/admins get unlimited session time** - no time limits, no payment required!
+
+Set admin users via environment variable:
+```bash
+export ADMIN_EMAILS="owner@example.com,admin@example.com"
+```
+
+**Admin privileges:**
+- ✅ 1-year token expiration (effectively unlimited)
+- ✅ No payment required
+- ✅ Full platform access
+- ✅ Can be used alongside regular paid users
+
 ## Features
 
 ### Backend (FastAPI)
 - **Optional Authentication**: Can be enabled/disabled via `REQUIRE_AUTH` environment variable
-- **JWT-based Authentication**: Secure token-based authentication with 30-minute expiration
+- **Admin Support**: Designated admin users get extended tokens (1 year) and no payment requirements
+- **JWT-based Authentication**: Secure token-based authentication with 30-minute expiration for regular users
 - **Password Security**: Bcrypt hashing via passlib for secure password storage
 - **RESTful API Endpoints**:
   - `POST /api/auth/register` - Register new user
-  - `POST /api/auth/login` - Login and receive JWT token
+  - `POST /api/auth/login` - Login and receive JWT token (admin users get 1-year tokens)
   - `GET /api/auth/me` - Get current authenticated user info (returns anonymous user if auth disabled)
 - **Email Validation**: Proper email format validation using email-validator
 - **Simple Storage**: JSON-based user storage for minimal infrastructure changes
@@ -38,12 +54,13 @@ export REACT_APP_REQUIRE_AUTH=true
 ## Security Features
 
 1. **Optional by Default**: Authentication disabled for single-user mode
-2. **Password Hashing**: All passwords are hashed using bcrypt before storage
-3. **JWT Tokens**: Short-lived tokens (30 minutes) for session management (configurable)
-4. **Protected Routes**: Dashboard and Bot Builder require authentication (when enabled)
-5. **Environment Variables**: JWT secret key can be configured via environment
-6. **Vulnerability-Free Dependencies**: All dependencies scanned and updated
-7. **Data Protection**: User data files excluded from version control
+2. **Admin Privileges**: Owner/admin users get unlimited session time (1-year tokens)
+3. **Password Hashing**: All passwords are hashed using bcrypt before storage
+4. **JWT Tokens**: Short-lived tokens (30 minutes) for regular users, extended for admins
+5. **Protected Routes**: Dashboard and Bot Builder require authentication (when enabled)
+6. **Environment Variables**: JWT secret key can be configured via environment
+7. **Vulnerability-Free Dependencies**: All dependencies scanned and updated
+8. **Data Protection**: User data files excluded from version control
 
 ## Setup Instructions
 
@@ -71,6 +88,9 @@ pip install -r requirements.txt
 export REQUIRE_AUTH=true
 export JWT_SECRET_KEY="your-secure-random-key-here"
 export ENVIRONMENT="development"  # or "production"
+
+# Set yourself as admin (unlimited session, no payment)
+export ADMIN_EMAILS="your@email.com"
 ```
 
 3. Start the backend server:

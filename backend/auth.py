@@ -19,6 +19,11 @@ from pydantic import BaseModel, EmailStr
 # Set REQUIRE_AUTH=false to disable authentication (useful for single-user deployments)
 REQUIRE_AUTH = os.getenv("REQUIRE_AUTH", "false").lower() == "true"
 
+# Admin Configuration
+# Admin users (by email) get unlimited session time and don't pay
+ADMIN_EMAILS = os.getenv("ADMIN_EMAILS", "").split(",")
+ADMIN_EMAILS = [email.strip() for email in ADMIN_EMAILS if email.strip()]
+
 # JWT Configuration
 # In production, always set JWT_SECRET_KEY environment variable to a secure random value
 SECRET_KEY = os.getenv("JWT_SECRET_KEY")
@@ -30,7 +35,8 @@ if not SECRET_KEY:
     SECRET_KEY = "droxai-dev-secret-key-change-in-production"
     
 ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
+ACCESS_TOKEN_EXPIRE_MINUTES = 30  # Default for regular users
+ADMIN_TOKEN_EXPIRE_DAYS = 365  # 1 year for admin users
 
 # Password hashing
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
@@ -87,14 +93,18 @@ def get_password_hash(password: str) -> str:
     """Hash a password"""
     return pwd_context.hash(password)
 
-def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -> str:
-    """Create a JWT access token"""
+def create_access_token(data: dict, expires_delta: Optional[timedelta] = None, is_admin: bool = False) -> str:
+    """Create a JWT access token (admin users get extended expiration)"""
     to_encode = data.copy()
     if expires_delta:
         expire = datetime.now(timezone.utc) + expires_delta
+    elif is_admin:
+        # Admin users get 1 year tokens (no time limit)
+        expire = datetime.now(timezone.utc) + timedelta(days=ADMIN_TOKEN_EXPIRE_DAYS)
     else:
+        # Regular users get standard expiration
         expire = datetime.now(timezone.utc) + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
-    to_encode.update({"exp": expire})
+    to_encode.update({"exp": expire, "is_admin": is_admin})
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
     return encoded_jwt
 
@@ -106,10 +116,18 @@ def decode_token(token: str) -> Optional[Dict]:
     except PyJWTError:
         return None
 
+def is_admin_user(email: str) -> bool:
+    """Check if user is an admin"""
+    return email in ADMIN_EMAILS
+
 def get_user(email: str) -> Optional[Dict]:
     """Get user by email"""
     users = load_users()
-    return users.get(email)
+    user = users.get(email)
+    if user:
+        # Add admin flag to user data
+        user["is_admin"] = is_admin_user(email)
+    return user
 
 def create_user(email: str, username: str, password: str) -> Dict:
     """Create a new user"""
