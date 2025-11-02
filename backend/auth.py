@@ -6,7 +6,7 @@ Handles user authentication, JWT tokens, and password hashing
 
 import os
 import json
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from typing import Optional, Dict
 from passlib.context import CryptContext
 import jwt
@@ -16,7 +16,15 @@ from fastapi.security import HTTPBearer, HTTPAuthorizationCredentials
 from pydantic import BaseModel, EmailStr
 
 # JWT Configuration
-SECRET_KEY = os.getenv("JWT_SECRET_KEY", "droxai-secret-key-change-in-production-12345")
+# In production, always set JWT_SECRET_KEY environment variable to a secure random value
+SECRET_KEY = os.getenv("JWT_SECRET_KEY")
+if not SECRET_KEY:
+    # Only use default in development
+    import sys
+    if "pytest" not in sys.modules and os.getenv("ENVIRONMENT") == "production":
+        raise ValueError("JWT_SECRET_KEY must be set in production environment")
+    SECRET_KEY = "droxai-dev-secret-key-change-in-production"
+    
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
@@ -55,7 +63,9 @@ def load_users() -> Dict:
     try:
         with open(USERS_FILE, "r") as f:
             return json.load(f)
-    except:
+    except (json.JSONDecodeError, IOError) as e:
+        # Log the error in production
+        print(f"Error loading users file: {e}")
         return {}
 
 def save_users(users: Dict):
@@ -75,9 +85,9 @@ def create_access_token(data: dict, expires_delta: Optional[timedelta] = None) -
     """Create a JWT access token"""
     to_encode = data.copy()
     if expires_delta:
-        expire = datetime.utcnow() + expires_delta
+        expire = datetime.now(timezone.utc) + expires_delta
     else:
-        expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+        expire = datetime.now(timezone.utc) + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     to_encode.update({"exp": expire})
     encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)
     return encoded_jwt
@@ -111,7 +121,7 @@ def create_user(email: str, username: str, password: str) -> Dict:
         "email": email,
         "username": username,
         "hashed_password": get_password_hash(password),
-        "created_at": datetime.utcnow().isoformat()
+        "created_at": datetime.now(timezone.utc).isoformat()
     }
     
     users[email] = user
