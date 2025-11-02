@@ -20,16 +20,14 @@ export const AuthProvider = ({ children }) => {
   useEffect(() => {
     // Check if user is logged in on mount
     const checkAuth = async () => {
-      const storedToken = localStorage.getItem('token');
-      if (storedToken) {
+      if (token) {
         try {
           const response = await axios.get(`${API_BASE_URL}/api/auth/me`, {
             headers: {
-              Authorization: `Bearer ${storedToken}`
+              Authorization: `Bearer ${token}`
             }
           });
           setUser(response.data);
-          setToken(storedToken);
         } catch (error) {
           // Token is invalid, clear it
           localStorage.removeItem('token');
@@ -41,7 +39,7 @@ export const AuthProvider = ({ children }) => {
     };
 
     checkAuth();
-  }, []);
+  }, [token]);
 
   const login = async (newToken) => {
     setToken(newToken);

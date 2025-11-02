@@ -58,14 +58,16 @@ USERS_FILE = os.path.join(os.path.dirname(__file__), "users.json")
 
 def load_users() -> Dict:
     """Load users from JSON file"""
+    import logging
+    logger = logging.getLogger(__name__)
+    
     if not os.path.exists(USERS_FILE):
         return {}
     try:
         with open(USERS_FILE, "r") as f:
             return json.load(f)
     except (json.JSONDecodeError, IOError) as e:
-        # Log the error in production
-        print(f"Error loading users file: {e}")
+        logger.error(f"Error loading users file: {e}")
         return {}
 
 def save_users(users: Dict):

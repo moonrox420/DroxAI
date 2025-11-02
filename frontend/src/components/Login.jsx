@@ -21,12 +21,9 @@ const Login = ({ onLogin }) => {
         password
       });
 
-      // Store token in localStorage
-      localStorage.setItem('token', response.data.access_token);
-      
-      // Call onLogin callback
+      // Call onLogin callback which handles token storage
       if (onLogin) {
-        onLogin(response.data.access_token);
+        await onLogin(response.data.access_token);
       }
 
       // Redirect to dashboard
