@@ -8,13 +8,20 @@ import os
 import json
 import logging
 from typing import Dict, List, Optional
+from datetime import datetime, timedelta
+import asyncio
 from fastapi import FastAPI, HTTPException, Depends, status
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 import uvicorn
-from datetime import datetime
-import asyncio
+
+# Import authentication modules
+from auth import (
+    UserCreate, UserLogin, UserResponse, Token,
+    create_user, authenticate_user, create_access_token,
+    get_current_user, ACCESS_TOKEN_EXPIRE_MINUTES
+)
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
@@ -59,6 +66,45 @@ class SystemStatus(BaseModel):
 
 # Global variables
 start_time = datetime.now()
+
+@app.post("/api/auth/register", response_model=UserResponse)
+async def register(user_data: UserCreate):
+    """Register a new user"""
+    try:
+        user = create_user(user_data.email, user_data.username, user_data.password)
+        return UserResponse(
+            email=user["email"],
+            username=user["username"],
+            created_at=user["created_at"]
+        )
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+@app.post("/api/auth/login", response_model=Token)
+async def login(user_credentials: UserLogin):
+    """Login user and return access token"""
+    user = authenticate_user(user_credentials.email, user_credentials.password)
+    if not user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Incorrect email or password",
+            headers={"WWW-Authenticate": "Bearer"},
+        )
+    
+    access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
+    access_token = create_access_token(
+        data={"sub": user["email"]}, expires_delta=access_token_expires
+    )
+    return Token(access_token=access_token, token_type="bearer")
+
+@app.get("/api/auth/me", response_model=UserResponse)
+async def read_users_me(current_user: Dict = Depends(get_current_user)):
+    """Get current user information"""
+    return UserResponse(
+        email=current_user["email"],
+        username=current_user["username"],
+        created_at=current_user["created_at"]
+    )
 
 @app.get("/")
 async def root():
