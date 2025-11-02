@@ -4,5 +4,11 @@
     "username": "testuser",
     "hashed_password": "$2b$12$LYNo/Ju.nbETendClghNb.0gZoIbHFPeiKP.Dq3UQhAvBBCfo8iLK",
     "created_at": "2025-11-02T20:58:57.558266"
+  },
+  "demo@droxai.com": {
+    "email": "demo@droxai.com",
+    "username": "demouser",
+    "hashed_password": "$2b$12$3Krn20pbcj0zB9NHLzuqp.mhhyWmoaEa6LZAmVMiQ38uKDfMjo4IG",
+    "created_at": "2025-11-02T21:07:07.825713"
   }
 }

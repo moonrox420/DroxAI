@@ -23,12 +23,12 @@ const BotBuilder = () => {
       const response = await fetch('https://api.droxai.com/v1/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text: , max_tokens: 500 })
+        body: JSON.stringify({ text: `Generate bot configuration for ${task}`, max_tokens: 500 })
       });
       const data = await response.json();
-      setPreviewText(data.response || );
+      setPreviewText(data.response || `Bot will handle: ${task}`);
     } catch (error) {
-      setPreviewText();
+      setPreviewText(`Bot will handle: ${task}`);
     }
   };
 
@@ -112,7 +112,7 @@ const BotBuilder = () => {
                       {taskList.map((task) => (
                         <button
                           key={task}
-                          className={}
+                          className="block w-full text-left px-4 py-2 my-1 bg-blue-100 hover:bg-blue-200 rounded transition"
                           onClick={() => handleTaskSelection(task)}
                         >
                           {task}
